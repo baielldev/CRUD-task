@@ -47,7 +47,7 @@ body {
   .card {
     background: url("https://images.wallpaperscraft.ru/image/single/oblaka_nebo_abstraktsiia_88538_1280x720.jpg");
     width: 550px;
-    height: 90px;
+    height: 100px;
     border-radius: 25px;
     padding-inline: 10px;
     display: flex;
@@ -61,7 +61,8 @@ body {
     }
 
     img {
-      width: 15%;
+      /* max-width: 100%; */
+      width: 80px;
     }
 
     ion-icon {
