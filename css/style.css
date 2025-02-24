@@ -6,7 +6,6 @@
 }
 
 body {
-  /* background: rgb(50, 84, 84); */
   background: url("https://images.wallpaperscraft.ru/image/single/tumannost_oblako_abstraktsiia_150177_1600x1200.jpg");
 }
 
@@ -27,8 +26,8 @@ body {
     height: 45px;
   }
   input:focus {
-    background-color: lightblue;
   }
+
   input::placeholder {
     color: #000;
   }
@@ -69,5 +68,45 @@ body {
       font-size: 47px;
       color: #000;
     }
+  }
+}
+
+.modal-window {
+  backdrop-filter: blur(2px);
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  position: fixed;
+  background-color: #000000bb;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 250px;
+    height: 40px;
+    background: linear-gradient(#e66465, #9198e5);
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 10px;
+    margin-right: 15px;
+  }
+
+  input::placeholder {
+    color: antiquewhite;
+  }
+
+  button {
+    background: #fff;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 18px;
+    color: #0c161b;
   }
 }
